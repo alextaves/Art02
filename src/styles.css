@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image {
+  flex-basis: 300px;
+  margin: 20px;
+}
+
+.image > img {
+  width: 100%;
+  height: auto;
+}
+
+.image > h3 {
+  text-align: center;
+  font-family: helvetica;
+  line-height: 8px;
+  color: #545454;
+}
+.image > p {
+  text-align: center;
+  line-height: 8px;
+  color: #545454;
+}
